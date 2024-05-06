@@ -3,7 +3,7 @@
 
 from __future__ import division
 
-__version__ = '1.1.0'
+__version__ = '1.1.1'
 
 from collections import defaultdict, namedtuple
 from copy import deepcopy
@@ -199,6 +199,12 @@ class UnitConvert(object):
         },
         'grams': {
             Unit.Mass: ConversionValue(1),
+        },
+        'mg': {
+            Unit.Mass: ConversionValue(0.001),
+        },
+        'milligrams': {
+            Unit.Mass: ConversionValue(0.001),
         },
         'kg': {
             Unit.Mass: ConversionValue(1000),
