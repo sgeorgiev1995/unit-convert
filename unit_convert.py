@@ -218,6 +218,9 @@ class UnitConvert(object):
         'ounces': {
             Unit.Mass: ConversionValue(28.349523),
         },
+        'lb': {
+            Unit.Mass: ConversionValue(453.59237),
+        },
         'lbs': {
             Unit.Mass: ConversionValue(453.59237),
         },
