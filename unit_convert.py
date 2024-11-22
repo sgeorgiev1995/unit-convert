@@ -213,10 +213,10 @@ class UnitConvert(object):
             Unit.Mass: ConversionValue(1000),
         },
         'oz': {
-            Unit.Mass: ConversionValue(28.349523),
+            Unit.Mass: ConversionValue(28.349523125),
         },
         'ounces': {
-            Unit.Mass: ConversionValue(28.349523),
+            Unit.Mass: ConversionValue(28.349523125),
         },
         'lb': {
             Unit.Mass: ConversionValue(453.59237),
